@@ -1,0 +1,10 @@
+1. Update the DB_DATABASE= in .env
+2. php artisan make:migration create_inventory_table
+3. php artisan migrate
+4. php artisan make:model Inventory
+5. php artisan make:controller InventoryController
+6. php artisan serve
+
+
+
+From API.PHP > InventoryController > InventoryService;
